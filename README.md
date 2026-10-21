@@ -65,11 +65,13 @@ curl.exe -fL "https://raw.githubusercontent.com/Lakshay5522/examjava/main/Hello.
 
 - [json.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/json.java)
 
-## Combined files
+## Merged files
 
-- **CAddSub.java** — Practical 3 calculator; addition and subtraction in one file (replaces Addition.java, Subtraction.java, Main.java).
-- **Servlet.java** — Practical 8 login servlet with the HTML form inside (replaces LoginServlet.java and the separate form).
-- **jsp.jsp** — Practical 9 marks form and grading in one JSP (replaces the separate form and result.jsp).
+Each merged file contains the original files' code **exactly as written**, with one blank line between them — no edits, no added comments:
+
+- **CAddSub.java** — Main.java, then Subtraction.java, then Addition.java (Practical 3)
+- **Servlet.java** — index.html (login form), then LoginServlet.java (Practical 8)
+- **jsp.jsp** — index.html (marks form), then result.jsp (Practical 9)
 
 ## Notes
 
