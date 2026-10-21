@@ -1,6 +1,6 @@
 # examjava
 
-Java Practicals 1–10 source files, each one a separate file at the root so you can grab any single program with one `curl` command.
+Java Practicals 1–10 source files. Each file sits at the repo root so you can grab any one with a single `curl` command.
 
 ## Download one file
 
@@ -12,35 +12,33 @@ curl.exe -fL "https://raw.githubusercontent.com/Lakshay5522/examjava/main/Hello.
 
 ### Practical 1 — Java Basics
 
-- [DataTypes.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/DataTypes.java)
 - [Hello.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/Hello.java)
+- [DataTypes.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/DataTypes.java)
 - [Mtable.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/Mtable.java)
 - [Patterns.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/Patterns.java)
 - [PyramidPattern.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/PyramidPattern.java)
 
 ### Practical 2 — OOP Principles
 
-- [Abs.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/Abs.java)
-- [Constructor.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/Constructor.java)
-- [hierarchy.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/hierarchy.java)
+- [single.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/single.java)
 - [multilevel.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/multilevel.java)
-- [MultipleI.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/MultipleI.java)
+- [hierarchy.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/hierarchy.java)
 - [overload.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/overload.java)
 - [overriding.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/overriding.java)
-- [single.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/single.java)
+- [Constructor.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/Constructor.java)
+- [Abs.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/Abs.java)
+- [MultipleI.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/MultipleI.java)
 
 ### Practical 3 — Packages & Access Specifiers
 
-- [Addition.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/Addition.java)
-- [DateExample.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/DateExample.java)
-- [InputExample.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/InputExample.java)
-- [Main.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/Main.java)
-- [MathExample.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/MathExample.java)
-- [Subtraction.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/Subtraction.java)
+- [InputEg.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/InputEg.java)
+- [MathEg.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/MathEg.java)
+- [DateEg.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/DateEg.java)
+- [CAddSub.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/CAddSub.java)
 
 ### Practical 4 — Exception Handling
 
-- [ExpHandl.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/ExpHandl.java)
+- [Trycatch.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/Trycatch.java)
 
 ### Practical 5 — Collection Framework
 
@@ -57,18 +55,26 @@ curl.exe -fL "https://raw.githubusercontent.com/Lakshay5522/examjava/main/Hello.
 
 ### Practical 8 — Servlets
 
-- [LoginServlet.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/LoginServlet.java)
+- [Servlet.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/Servlet.java)
 
 ### Practical 9 — JSP
 
+- [jsp.jsp](https://raw.githubusercontent.com/Lakshay5522/examjava/main/jsp.jsp)
 
 ### Practical 10 — JSON
 
-- [CreateJsonObject.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/CreateJsonObject.java)
+- [json.java](https://raw.githubusercontent.com/Lakshay5522/examjava/main/json.java)
+
+## Combined files
+
+- **CAddSub.java** — Practical 3 calculator; addition and subtraction in one file (replaces Addition.java, Subtraction.java, Main.java).
+- **Servlet.java** — Practical 8 login servlet with the HTML form inside (replaces LoginServlet.java and the separate form).
+- **jsp.jsp** — Practical 9 marks form and grading in one JSP (replaces the separate form and result.jsp).
 
 ## Notes
 
-- The raw URL pattern is `https://raw.githubusercontent.com/Lakshay5522/examjava/main/<FileName>`.
-- Compile and run any file with `javac Hello.java` then `java Hello`.
-- `Addition.java` and `Subtraction.java` declare `package calculator;`, `Insert.java` declares `package insert;`, `LoginServlet.java` declares `package mypack;` — place them in a matching folder before compiling.
-- `Insert.java` needs a MySQL connector jar; `LoginServlet.java` needs the servlet API; `CreateJsonObject.java` needs the `org.json` jar.
+- Raw URL pattern: `https://raw.githubusercontent.com/Lakshay5522/examjava/main/<FileName>`.
+- Compile and run with `javac Hello.java` then `java Hello`.
+- `Insert.java` declares `package insert;` — put it in an `insert/` folder before compiling. It needs a MySQL connector jar.
+- `Servlet.java` needs the servlet API and a servlet container.
+- `json.java` needs the `org.json` jar.
